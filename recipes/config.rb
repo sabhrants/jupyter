@@ -36,6 +36,7 @@ f3 = "c.NotebookApp.keyfile = u'/home/ssl/cert.key'"
 f4 = "c.IPKernelApp.pylab = 'inline'"
 f5 = "c.NotebookApp.ip = '*'"
 f6 = "c.NotebookApp.open_browser = False "
+f7 = "c.NotebookApp.port = 8888 "
 file = Chef::Util::FileEdit.new('/root/.jupyter/jupyter_notebook_config.py')
 file.insert_line_if_no_match(/#{f1}/, f1)
 file.insert_line_if_no_match(/#{f2}/, f2)
@@ -43,6 +44,7 @@ file.insert_line_if_no_match(/#{f3}/, f3)
 file.insert_line_if_no_match(/#{f4}/, f4)
 file.insert_line_if_no_match(/#{f5}/, f5)
 file.insert_line_if_no_match(/#{f6}/, f6)
+file.insert_line_if_no_match(/#{f7}/, f7)
 file.write_file
 end
 action :run
