@@ -1,9 +1,9 @@
 	 	 	
-#JUPYTER NOTEBOOK COOKBOOK
+# JUPYTER NOTEBOOK COOKBOOK
 
  Jupyter Cookbook installs the Jupyter Notebook on your machine and configures it to access remotely.
 
-##REQUIREMENTS	
+## REQUIREMENTS	
 
 The following cookbooks are direct dependencies because they're used for common "default" functionality.
 
@@ -21,7 +21,7 @@ The following cookbooks are direct dependencies because they're used for common 
 ###   Chef
         Chef 12.7+
 	 	 	
-##USAGE	
+## USAGE	
    Add depends jupyter' to your cookbook's metadata.rb to use Jupyter Notebook in your cookbooks.
    Use the cookbook to install jupyter notebook on your EC2 instance.
 
