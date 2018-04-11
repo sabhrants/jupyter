@@ -18,7 +18,7 @@ The following cookbooks are direct dependencies because they're used for common 
         
 	poise-languages support code for Poise's language cookbooks like poise-ruby and poise-python.    
         
-	poise-python  A Chef cookbook to provide a unified interface for installing Python, managing Python packages, and               creating virtualenvs.
+	poise-python  A Chef cookbook to provide a unified interface for installing Python, managing Python packages,and creating virtualenvs.
 
 ###   Chef
         Chef 12.7+
