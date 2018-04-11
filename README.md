@@ -8,9 +8,7 @@
 The following cookbooks are direct dependencies because they're used for common "default" functionality.
 
 ### Platforms
-        Debian / Ubuntu derivatives
-        Fedora
-        Red Hat Enterprise Linux 	
+      Amazon Linux	
 
 ### Cookbooks
 	
